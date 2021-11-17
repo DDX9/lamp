@@ -34,6 +34,10 @@ sudo service apache2 restart
 
 echo -e "\n\nLAMP Installation Completed"
 
+sudo snap install core; sudo snap refresh core
+sudo ln -s /snap/bin/certbot /usr/bin/certbot
+echo -e "\n\n Certbot install complete\n"
+
 exit 0
 
 
