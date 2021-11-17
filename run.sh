@@ -5,10 +5,10 @@ sudo add-apt-repository ppa:ondrej/php
 sudo apt update
 
 echo -e "/n/n installing php7.4 \n"
-sudo apt-get install -y php7.4-cli php7.4-json php7.4-common php7.4-mysql php7.4-zip php7.4-gd php7.4-mbstring php7.4-curl php7.4-xml php7.4-bcmath
+sudo apt-get install -y php7.4-cli php7.4-json php7.4-common php7.4-mysql php7.4-zip php7.4-gd php7.4-mbstring php7.4-curl php7.4-xml php7.4-bcmath libapache2-mod-php7.4
 php -v
 
-sudo apt install -y apache2
+sudo apt install -y apache2 
 echo -e "\n\n Apache2 installed\n"
 
 sudo chown -R www-data:www-data /var/www
