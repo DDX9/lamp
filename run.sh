@@ -38,6 +38,8 @@ sudo snap install core; sudo snap refresh core
 sudo ln -s /snap/bin/certbot /usr/bin/certbot
 echo -e "\n\n Certbot install complete\n"
 
+sudo  apt-get install phpmyadmin
+
 exit 0
 
 
