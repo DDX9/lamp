@@ -42,5 +42,10 @@ sudo  apt-get install phpmyadmin
 
 exit 0
 
+# add user to sudo
+# install mysql 
+# setup laravel project permission
+# sudo chown 777 -R /var/www/*
+
 
 
